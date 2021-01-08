@@ -18,6 +18,7 @@ def flatten_json(y):
                     output[name].append(result)
                 else:
                     output[name] = jsonObject
+                    break
         else:
             output[name[:-1]] = jsonObject
 
